@@ -1,0 +1,203 @@
+
+.firstdiv
+{
+    margin: 0;
+    /* border: solid red 3px; */
+}
+.seconddiv
+{
+    background-image: url(PeiBrewingCoImages/whitewood.jpg);
+    /* border: red 3px solid; */
+    display: flex;
+    justify-content: space-around;
+}
+.thirddiv
+{
+    /* border: red 3px solid; */
+    display: flex;
+}
+.fourthdiv
+{
+    /* border: red solid 3px; */
+    display: flex;
+}
+.sixthdiv
+{
+    /* border: red solid 3px; */
+    display: flex;
+}
+.seventhdiv
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border: red solid 3px; */
+    background-color: black;
+    color: whitesmoke;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: solid red 3px; */
+}
+
+/* .one{border: purple 2px solid;} */
+/* .two{border: purple 2px solid;} */
+/* .three{border: purple 2px solid;} */
+.four{/*border: purple 2px solid;*/width: 50%;background-color: black;}
+.five{/*border: purple 2px solid;*/width: 50%;background-color: black;}
+.sixth{/*border: solid rgb(236, 252, 12) 3px;*/background-color: black;width: 50%;}
+.seventh{/*border: solid red 3px;*/margin-left: 12%;} 
+.heading
+{
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    color: #e7a02b;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.info
+{
+    padding: 0;margin: 0;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    color: #e7a02b;
+    font-size: 30px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.heading1
+{
+    font-family: "Bebas Neue",sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+.info1
+{
+    padding: 0;margin: 0;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+.miniinfo
+{
+    padding: 0;margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+.emailclick
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color:#e7a02b;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.email
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color:#e7a02b;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 12%;
+    padding-right: 20px;padding-top: 10px;padding-bottom: 10px;padding-left: 20px;
+    background-color: #e7a02b;
+}
+#one
+{
+    color: white;
+}
+.button:hover
+{
+    background-color: red;
+    transition: 1000ms;
+}
+.flex1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:900px)
+{
+    .seconddiv
+    {
+        display:block;
+    }
+    .one,.two,.three
+    {
+        /* border: red solid 3px; */
+        padding: 40px;
+    }
+    .heading
+    {
+        font-size: 30px;
+    }
+    .info
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:758px)
+{
+    .four h1{line-height: normal;}
+    .four,.five,.sixth
+    {
+        width: 100%;padding: 20%;
+        /* border: red solid 3px; */
+    }
+    .responsive
+    {
+    width: 100%;
+    height: auto;
+    }
+    .flex
+    {
+        display: flex;
+     /* flex-wrap: wrap; */
+        flex-direction:row-reverse;
+     /* border: solid red 3px; */
+    }
+    .flexs
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        border: solid red 3px;
+    }
+}

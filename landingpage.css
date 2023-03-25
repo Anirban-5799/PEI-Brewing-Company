@@ -1,0 +1,464 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    overflow-x:initial;background-color: black;
+}
+.miniinfo
+{
+    padding: 0;margin: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+.subs
+{
+    align-items:end;
+    /* border: solid rgb(236, 252, 12) 3px; */
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+    
+}
+.heading1
+{
+    font-family: "Bebas Neue",sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 12%;
+    padding-right: 20px;padding-top: 10px;padding-bottom: 10px;padding-left: 20px;
+    background-color: #e7a02b;
+}
+#one
+{
+    color: white;
+}
+.socialmedia
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    display:flex;
+    margin-left: 12%;
+    /* border: red solid 3px;    */
+}
+.nav-bar
+{
+    /* display: flex; */
+    /* border:red solid 3px; */
+    background-color: black;
+}
+.options
+{
+    /* border: tomato 3px solid; */
+    display: inline-flex;
+    float: right;
+}
+.navlinks-socialmedia
+{
+    /* display: flex; */
+    width: 30px;
+}
+.options li
+{
+    margin-top: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    /* border: blue solid 3px; */
+}
+.options li a
+{
+    font-family: "Bebas Neue",sans-serif;
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+}
+li a:hover
+{
+    color: #e7a02b;
+    transition: 500ms;
+    transition-duration: 500ms;
+
+}
+#one,#two
+{
+    /* border: red solid 3px; */
+    margin-bottom: 100px;
+}
+.logo
+{
+    /* border: red solid 3px; */
+
+    width: 250px;
+    height: auto;
+}
+.logo-div
+{
+    /* border: solid purple 5px; */
+    padding-left: 5%;
+    padding-right: 30%;
+}
+/* slideshow */
+/*The webpage has been designed*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*Basic structure of slider*/
+.container{
+    width: 100%;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+/*Area of images*/
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 6s infinite;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+img{
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(-100%);
+    }
+    80%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+.motto
+{
+    
+    /* top: 100vh; */
+    background-color: black;
+    padding: 5%;
+    /* border: solid red 3px; */
+}
+.motto-text
+{
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+.our-brands
+{
+    position: relative;
+    background-color: black;
+    /* top: 100vh; */
+    /* border: solid red 3px; */
+}
+
+.container_1{
+    width: 100%;
+    /* position: absolute; */
+    top: 150vh;
+    overflow: hidden;
+}
+
+/*Area of images*/
+.wrapper_1{
+    width: 100%;
+    display: flex;
+    animation: slide1 24s infinite;
+}
+
+img{
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide1{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.subscribez
+{
+    display: flex;
+    /* border: red solid 3px; */
+    background-color: black;
+}
+.pic
+{
+    width: 50%;
+    height: 50%;
+}
+.heading1
+{
+    padding-top: 10px;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+    
+}
+.button1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 12%;
+    padding-left: 10px;padding-right: 10px;padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e7a02b;
+}
+.button:hover
+{
+    /* background-color: red; */
+    background-color: red;
+    transition: 1000ms;
+}
+.seventhdiv
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border: red solid 3px; */
+    background-color: black;
+    color: whitesmoke;
+}
+.miniinfo
+{
+    padding: 0;margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+#one
+{
+    color: white;
+}
+.hamburger
+{
+    /* border: red solid 3px; */
+    display: flex;
+    float: right;
+    position: relative;
+    margin-top: 5vh;
+    margin-right: 15px;
+    display: none;
+}
+.hm
+{
+    border: white solid 3px;
+    font-size: 5px;
+    display:block;
+    color: black;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 35px;
+}
+.hamburger:hover
+{
+    background-color:#e7a02b;
+    color: #e7a02b;
+}
+.options.active
+{
+    left: 0%;
+}
+/* media queries */
+@media screen and (max-width:768px)
+{
+    .options
+    {
+        
+        width: 100%;
+        background-color: black;
+        position:absolute;
+        left: 0%;
+        top: -100%;
+        transition: 1s;
+        transform:translateY(183%);
+        /* transition: all 1s linear; */
+        /* opacity: 1; */
+        /* visibility: hidden; */
+        
+        /* margin-top: 12%; */
+        display:block;
+         /* temporarily making this display none to hide it while making the hamburger button */
+    }
+    .active .options
+    {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .options li
+    {
+        justify-content: center;
+    }
+    .hamburger
+    {
+        margin-top: 4%;
+        right: 5%;
+        position: absolute;
+        display:inline-block;
+    }
+
+}
+.seventhdiv /*for footer */
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border: red solid 3px; */
+    background-color: black;
+    color: whitesmoke;
+}
+.anirban-box-subscribe
+{
+    /* border: solid red 3px; */
+    display: flex;
+}
+.anirban-pictures-to-be-flexed
+{
+    width: 50%;
+}
+.anirban-subscribe-div
+{
+    background-color: black;
+    width: 100%;
+    padding: 5%;
+}
+.anirban-bold-heading
+{
+    padding-top: 50px;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%
+}
+.anirban-bold-paragraph
+{
+    padding: 0;margin: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%;
+}
+.anirban-socialmedia-links
+{
+    /* border: red solid 3px; */
+    margin-left: 12%;
+    display:inline-block;
+    margin-top: 20px;
+
+}
+.anirban-socialmedia-links-icons
+{
+    width: 40px;
+}
+@media screen and (max-width:768px)
+{
+    .anirban-box-subscribe
+    {
+        display:block;
+    }
+    .anirban-pictures-to-be-flexed
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:425px)
+{
+    
+}

@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.motto
+{
+    background-color: black;
+    padding: 5%;
+}
+.motto-text
+{
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+.cards-div
+{
+    display: flex;
+    /* border: solid 3px red; */
+}
+.cards
+{
+    /* border: solid blue 3px; */
+    background-color:black;
+}
+.overflow
+{
+    width: 100%;
+    height: 100;
+    overflow: hidden;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading1
+{
+    font-family: "Bebas Neue",sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.subs
+{
+    align-items:end;
+    /* border: solid rgb(236, 252, 12) 3px; */
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+    
+}
+.socialmedia
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    display:inline-block;
+    margin-left: 12%
+    /* border: solid red 3px;    */
+}
+.miniinfo
+{
+    padding: 0;margin: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12%;
+}
+.cards a:hover
+{
+    background-color: yellow;
+    opacity: 80%;
+    color:black;
+    transition: 500ms;
+}
+@media screen and (min-width:1870px)
+{
+    .cards-div
+    {
+        background-color: black;
+        justify-content: space-evenly;
+    }
+}

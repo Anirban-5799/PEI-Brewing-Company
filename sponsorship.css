@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.horizontal_bar
+{
+    padding: 15px;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    background-color: #e7a02b;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+.seconddiv_form
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+.b
+{
+    line-height: 150%;
+    font-family: Helvetica;
+    font-size: 20px;
+    color:rgb(119, 118, 118, 0.804);
+}
+.a
+{
+    font-size: larger;
+    border: 2px solid rgb(53, 53, 53);
+    color: rgb(119, 118, 118);
+    background-color: rgb(37, 36, 36);
+    font-family: Helvetica;
+    border-radius: 3px;
+    padding: 10px;
+    height: 10px;
+}
+#textarea
+{
+    background-color:rgb(37, 36, 36);
+    color: rgb(119, 118, 118);
+    font-size: larger;
+    font-family: Helvetica;
+    padding: 10px;
+    
+}
+.formEmailButton
+{
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgb(53, 53, 53);
+    background-color: rgb(37, 36, 36);
+    font-family: Helvetica;
+    font-size: 20px;
+    color:rgb(119, 118, 118, 0.804);
+    cursor: pointer;
+}
+.seventhdiv
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border: red solid 3px; */
+    background-color: black;
+    color: whitesmoke;
+}

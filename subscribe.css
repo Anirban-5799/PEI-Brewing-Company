@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.firstdiv
+{
+    padding-left: 22%;padding-top: 5%;padding-bottom: 5%;
+    display: flex;
+    /* border: solid red 3px; */
+}
+.seconddiv_form
+{
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+#dob
+{
+    border: 2px solid #d0d0d0 !important;
+    border-radius: 3px;
+    padding: 10px;
+    width: 495px;
+    height: 25px;
+}
+.formEmailButton {
+    
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 42px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color:gray;
+    color:white;
+    height: 42px;
+    margin: 12px 5px 12px 0;
+    padding: 0 22px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.formEmailButton:hover
+{
+    background-color: red;
+    transition: 1000ms;
+}
+.a
+{
+    border: 2px solid #d0d0d0 !important;
+    border-radius: 3px;
+    padding: 10px;
+    height: 25px;
+}
+.b
+{
+    line-height: 150%;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #333333;
+}
+.flex
+{
+    display: flex;
+}
